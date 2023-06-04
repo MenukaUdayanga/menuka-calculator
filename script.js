@@ -45,5 +45,6 @@ function mul(){
     document.getElementById("answer").innerHTML=answer;
 
 
+    var first;
 }
 
