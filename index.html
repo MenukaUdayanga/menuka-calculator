@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+
+    <h1 class="heading">Simple Calculator</h1>
+
+    <div class="fields">
+        <form class="form">
+            <label for="" class="label">First Number</label><br>
+            <input class="box" id="first" type="text" placeholder="Enter FirstNumber">
+
+            <label for="" class="label">Second Number</label><br>
+            <input class="box" id="second" type="text" placeholder="Enter SecondNumber">
+        </form>
+    </div>
+
+    <div class="e_btn">
+        <button class="btn" onclick="add()"><span class="symboles">+</span></button>
+        <button class="btn" onclick="sub()"><span class="symboles">-</span></button>
+        <button class="btn" onclick="divd()"><span class="symboles">/</span></button>
+        <button class="btn" onclick="mul()"><span class="symboles">*</span></button>
+    </div>
+
+    <div class="e_answer" >
+
+        <span class="placeholder" id="answer"></span>
+      
+    </div>
+
+</div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
